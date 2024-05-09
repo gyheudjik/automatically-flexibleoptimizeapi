@@ -1,2 +1,3 @@
-const titleCase = (str) =>
-  str.toLowerCase().replace(/\b\w/g, (char) => char.toUpperCase());
+function countConsonants(str) {
+  return str.match(/[bcdfghjklmnpqrstvwxyz]/gi).length;
+}
